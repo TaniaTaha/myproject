@@ -1,0 +1,44 @@
+button.__btn__main {
+    max-width: 180px;
+    width: 100%;
+    height: 60px;
+    background-image: -webkit-linear-gradient( 0deg, #ed961ebf 0%, #d9ab138c 100%);
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: none;
+    text-align: center;
+    color: #040021;
+    text-transform: uppercase;
+    box-shadow: 0 3px 6px rgba($color: #000000, $alpha: 0.16);
+    border-radius: 0.4rem;
+    transition: 0.3s;
+    &:focus {
+        outline: none;
+    }
+}
+
+button.__btn__big {
+    max-width: 180px;
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: none;
+    text-align: center;
+    color: #fff;
+    border: 1px solid $white;
+    text-transform: uppercase;
+    box-shadow: 0 3px 6px rgba($color: #000000, $alpha: 0.16);
+    border-radius: 0.4rem;
+    transition: 0.3s;
+    &:hover {
+        background-image: -webkit-linear-gradient( 0deg, #ed961ebf 0%, #d9ab138c 100%);
+        color: #040021;
+        border: none;
+        box-shadow: 0 3px 6px rgba($color: #000000, $alpha: 0.16);
+    }
+    &:focus {
+        outline: none;
+    }
+}
